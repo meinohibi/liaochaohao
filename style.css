@@ -21,8 +21,8 @@ body *:lang(en) {
 /* 메뉴 스타일 */
 nav {
   background-color: #fff;
-  padding: 1rem;
-  text-align: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #ddd;  /* 가벼운 경계선 */
 }
 
 nav ul {
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
 }
