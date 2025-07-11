@@ -15,7 +15,7 @@ body *:lang(en) {
 
 /* 메뉴 스타일 */
 nav {
-  background-color: #111;
+  background-color: #fff;
   padding: 1rem;
   text-align: center;
 }
