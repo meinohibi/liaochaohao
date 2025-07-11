@@ -1,1 +1,62 @@
+/* 기본 설정 */
+body {
+  background-color: #111; /* 다크 그레이 */
+  color: #fff;            /* 흰색 글씨 */
+  font-family: 'Ten Mincho', serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* 영어 텍스트에 sans-serif 적용 */
+body *:lang(en) {
+  font-family: sans-serif;
+}
+
+/* 메뉴 스타일 */
+nav {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* 섹션 스타일 */
+section {
+  max-width: 800px;
+  margin: 5rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+/* 반응형 고려 (모바일) */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
 
